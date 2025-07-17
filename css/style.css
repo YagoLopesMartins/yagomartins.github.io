@@ -98,5 +98,13 @@ nav#menu li{
         background-attachment: scroll;
     }
 }
+.project {
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 600px;
+  text-align: left;
+}
+
 
 
