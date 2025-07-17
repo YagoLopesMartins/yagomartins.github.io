@@ -1,94 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/img01.jpeg" sizes="50x50">
-    <title>Parallax WebSite</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Portfólio de [Seu Nome], desenvolvedor web e mobile com foco em React, Spring Boot, Node.js e mais." />
+  <title>Portfólio | [Seu Nome] | Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/img01.jpeg" sizes="50x50" />
 </head>
+
 <body>
-    <header id="cabecalho">
-        <nav id="menu">
-            <ul>
-                <a href="#section1"><li>Home</li></a>
-                <a href="#section2"><li>About</li></a>
-                <a href="#section3"><li>Team</li></a>
-                <a href="#section3"><li>Contact</li></a>
-                <a href="#section1"><li>Contact 2</li></a>
-            </ul>
-        </nav>
-    </header>
-    <div class="pimg1">
-        <div class="ptext">
-            <span class="border">
-                JobSeeker
-            </span>
-        </div>
-    </div> 
-    <section id="projects">
-  <h2>Projetos em Destaque</h2>
-  <div class="project">
-    <h3>ToDo App</h3>
-    <p>Aplicação para gestão de tarefas com React e Node.js</p>
-    <a href="https://github.com/seuusuario/todo-app" target="_blank">GitHub</a>
-    <a href="https://seuusuario.github.io/todo-app/" target="_blank">Ver demo</a>
+  <header id="cabecalho">
+    <nav id="menu">
+      <ul>
+        <a href="#home"><li>Home</li></a>
+        <a href="#sobre"><li>Sobre</li></a>
+        <a href="#projetos"><li>Projetos</li></a>
+        <a href="#contato"><li>Contato</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="pimg1" id="home">
+    <div class="ptext">
+      <span class="border">
+        [Seu Nome] - Full Stack Developer
+      </span>
+    </div>
   </div>
-</section>
 
+  <section class="section section-light" id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+      Graduado em Ciência da Computação, sou um profissional apaixonado por tecnologia com foco em soluções web e mobile.
+      Tenho experiência com ReactJS, Angular, TypeScript, Node.js, Spring Boot e Laravel, construindo aplicações modernas e eficientes.
+      Valorizo a colaboração, o aprendizado contínuo e as boas práticas como Clean Code, SOLID e TDD.
+    </p>
+  </section>
 
-    <section class="section section-light" id="section1">
-        <h2>Home</h2>
-        <p>
-            Encontre o emprego que precis de um jeito fácil e simples<br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-        </p>
-    </section>
+  <div class="pimg2"></div>
 
-    <div class="pimg2">
-        <div class="ptext">
-            <span class="border trans">
-                iMAGE TWO TEXT
-            </span>
-        </div>
-    </div> 
+  <section class="section section-dark" id="projetos">
+    <h2>Projetos</h2>
+    <div class="project">
+      <h3>ToDo App</h3>
+      <p>Aplicação para gestão de tarefas com React e Node.js.</p>
+      <a href="https://github.com/seuusuario/todo-app" target="_blank">GitHub</a> |
+      <a href="https://seuusuario.github.io/todo-app/" target="_blank">Ver demo</a>
+    </div>
+    <div class="project">
+      <h3>API de Produtos</h3>
+      <p>API RESTful desenvolvida com Spring Boot e banco de dados PostgreSQL.</p>
+      <a href="https://github.com/seuusuario/api-produtos" target="_blank">GitHub</a>
+    </div>
+  </section>
 
-    <section class="section section-dark" id="section2">
-        <h2>Section Two</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-        </p>
-    </section>
-    
-    <div class="pimg3">
-        <div class="ptext">
-            <span class="border trans">
-                iMAGE TWO TEXT
-            </span>
-        </div>
-    </div> 
+  <div class="pimg3"></div>
 
-    <section class="section section-dark" id="section3">
-        <h2>Section Tree</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse corporis quos aperiam corrupti provident tempora iste. Delectus libero, iusto assumenda magni fugit eligendi? Nemo nam quos facere labore voluptatum!
-        </p>
-    </section>
+  <section class="section section-light" id="contato">
+    <h2>Contato</h2>
+    <p>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+    <p><a href="https://www.linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a></p>
+    <p><a href="cv-seu-nome.pdf" download>Baixar Currículo</a></p>
+  </section>
 
-    <div class="pimg1">
-        <div class="ptext">
-            <span class="border">
-                    JobSeeker
-            </span>
-        </div>
-    </div> 
-
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">Obrigado pela visita!</span>
+    </div>
+  </div>
 </body>
+
 </html>
